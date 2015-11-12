@@ -29,14 +29,9 @@ And the sub-structure "cf", which contains the CF parameters:
 * Target voxel coordinates.
 * Connection index (each target ROI index and its associated CF index in the source ROI).
 
-
 This function also computes the power spectrum of the detrended time series, plots them and save the images as pdf files. The power spectrum is computed using Chronux.
 
 See example inside `pRFandCFdata`.
-
-nicolas.gravel@gmail.com 11-11-2015 University of Groningen, The Netherlands.
-
-Always cite your sources!
 
 References:
 
