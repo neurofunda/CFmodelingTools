@@ -7,7 +7,8 @@ function [ ] = pRFandCFdata(view,firstDatatype,lastDatatype,VEthr,pRFmodel,nFram
 % The function depends on the following inputs:
 % 
 % -     A loaded mrVista session (view) with loaded source and target ROIs
-% -     A folder "Analysis" inside the mrVista session folder (mkdir('Analysis')
+% -     A folder "Analysis" inside the mrVista session folder
+% (mkdir('Analysis'). The results will be saved there.
 % -     Path to a folder containing the pRF model
 % -     Datatype numbers (This is vestigial for now. It can be useful to compute
 %       many many many dataTypes at once.)
@@ -15,22 +16,22 @@ function [ ] = pRFandCFdata(view,firstDatatype,lastDatatype,VEthr,pRFmodel,nFram
 % -     TR
 
 % The output of this function is the structure pRFandCFdata_dataType_sourceROI_targetROI, which contains:
+%
 % -   Source and target ROI time series
 % -   Associated pRF variance explained (VE)
 % -   Associated pRF size (Sigma)
 % -   Associated Visual field coordinates (Eccentricity and Polar angle)
 % -   Associated Cortical coordinates
 % -   Cortical distances between all pair of nodes (voxels)
-% 
-% And the structure "cf", which contains the CF parameters:
-% -   Variance explained
-% -   Corrected variance explained
-% -   Sigma
-% -   Rss, Raw Rss, beta, npoints, ntrends
-% -   CF center coordinates
-% -   Cartesian and polar visuotopic coordinates
-% -   Target voxel coordinates
-% -   Connection index (each target ROI index and its associated CF index in the source ROI)
+% -   The structure"cf", which contains the CF parameters:
+%   -   Variance explained
+%   -   Corrected variance explained
+%   -   Sigma
+%   -   Rss, Raw Rss, beta, npoints, ntrends
+%   -   CF center coordinates
+%   -   Cartesian and polar visuotopic coordinates
+%   -   Target voxel coordinates
+%   -   Connection index (each target ROI index and its associated CF index in the source ROI)
 % 
 % This function also computes the power spectrum of the detrended time series, plots them and save the images as pdf files. 
 % The power spectrum is computed using Chronux.
