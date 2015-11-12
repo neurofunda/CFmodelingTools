@@ -7,6 +7,7 @@ function [ ] = pRFandCFdata(view,firstDatatype,lastDatatype,VEthr,pRFmodel,nFram
 % The function depends on the following inputs:
 % 
 % -     A loaded mrVista session (view) with loaded source and target ROIs
+% -     A folder "Analysis" inside the mrVista session folder (mkdir('Analysis')
 % -     Path to a folder containing the pRF model
 % -     Datatype numbers (This is vestigial for now. It can be useful to compute
 %       many many many dataTypes at once.)
