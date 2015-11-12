@@ -37,4 +37,4 @@ References:
 
 [Haak KV, Winawer J, Harvey BM, Renken R, Dumoulin SO, Wandell Ba, et al. Connective field modeling. NeuroImage. 2013;66:376–384.](http://www.ncbi.nlm.nih.gov/pubmed/23110879)
 
-[Gravel NA, Harvey B, Nordhjem B, Haak KV, Dumoulin SO, Renken R, et al. Cortical connective field estimates from resting state fMRI activity. Frontiers in Neuroscience. 2014;8(October):1–10.](http://www.ncbi.nlm.nih.gov/pubmed/25400541)(
+[Gravel NA, Harvey B, Nordhjem B, Haak KV, Dumoulin SO, Renken R, et al. Cortical connective field estimates from resting state fMRI activity. Frontiers in Neuroscience. 2014;8(October):1–10.](http://www.ncbi.nlm.nih.gov/pubmed/25400541)
